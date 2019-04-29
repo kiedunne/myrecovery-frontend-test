@@ -4,7 +4,7 @@ Do not spend more than four hours on this test, it doesn't matter if the code is
 
 ## Overview
 
-1. Build a frontend application that consumes api.json endpoint, and provides the ability for a user to:
+1. Build a frontend application that consumes [api.json](api.json), and provides the ability for a user to:
     i) view their team
     ii) view their team members
     iii) add / remove a team member.
