@@ -1,0 +1,73 @@
+[{
+    "profilePicture": "https://avatars1.githubusercontent.com/u/6820?s=400&v=4",
+    "firstName": "Dexter",
+    "lastName": "Marquez",
+    "type": "Surgeon",
+    "onLeave": false,
+    "specialities": ["Orthopaedics"],
+    "biography": "Troublemaker. Lifelong zombieaholic. Explorer. Creator. Travel buff. Bacon practitioner. General coffee ninja."
+},
+{
+    "profilePicture": "https://avatars3.githubusercontent.com/u/1703387?s=400&v=4",
+    "firstName": "Elijah",
+    "lastName": "Buckley",
+    "type": "Nurse",
+    "onLeave": false,
+    "specialities": ["Orthopaedics"],
+    "biography": "Introvert. Alcohol nerd. Twitteraholic. Extreme problem solver. Social media trailblazer."
+},
+{
+    "profilePicture": "https://avatars0.githubusercontent.com/u/9684139?s=400&v=4",
+    "firstName": "Alissia",
+    "lastName": "Stanley",
+    "type": "Nurse",
+    "onLeave": true,
+    "specialities": ["Orthopaedics", "Renal", "Paediatrics"],
+    "biography": "Lifelong tv fanatic. Twitter buff. Zombie geek. Pop culture fan. Friendly web fanatic."
+},
+{
+    "profilePicture": "https://avatars2.githubusercontent.com/u/48950?s=400&v=4",
+    "firstName": "Justin",
+    "lastName": "Macfarlane",
+    "type": "Admin Assistant",
+    "onLeave": false,
+    "specialities": null,
+    "biography": "Hipster-friendly tv geek. Creator. Troublemaker. Internet enthusiast. Extreme bacon aficionado."
+},
+{
+    "profilePicture": "https://avatars2.githubusercontent.com/u/5201004?s=400&v=4",
+    "firstName": "Aniqa",
+    "lastName": "Wang",
+    "type": "Surgeon",
+    "onLeave": false,
+    "specialities": ["Orthopaedics"],
+    "biography": "Extreme social media fanatic. Hipster-friendly internet enthusiast. Food specialist."
+},
+{
+    "profilePicture": "https://avatars2.githubusercontent.com/u/1883082?s=400&v=4",
+    "firstName": "Bianka",
+    "lastName": "Edge",
+    "type": "Nurse",
+    "onLeave": false,
+    "specialities": ["Orthopaedics", "Renal"],
+    "biography": "Zombie practitioner. Hardcore beer specialist. Typical social media aficionado. Tv trailblazer."
+},
+{
+    "profilePicture": "https://avatars1.githubusercontent.com/u/4589857?s=400&v=4",
+    "firstName": "Alicja",
+    "lastName": "Gill",
+    "type": "Nurse",
+    "onLeave": false,
+    "specialities": ["Orthopaedics", "Paediatrics"],
+    "biography": "Infuriatingly humble student. Incurable web maven. Reader. Devoted communicator. Evil social media practitioner."
+},
+{
+    "profilePicture": "https://avatars2.githubusercontent.com/u/9504864?s=400&v=4",
+    "firstName": "Cataleya",
+    "lastName": "Mahoney",
+    "type": "Admin Assistant",
+    "onLeave": true,
+    "specialities": null,
+    "biography": "Certified writer. Music buff. Extreme reader. Travel junkie. Social media fanatic. Organizer. Professional food practitioner."
+}
+]
