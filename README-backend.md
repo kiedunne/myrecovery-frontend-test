@@ -8,7 +8,7 @@ Do not spend more than four hours on this test, it doesn't matter if the code is
 2. Build a backend API that exposes a hospital's clinical teams via a single RESTful endpoint.
 3. Send us your solution as either:
     i) a link to a fork of this repo
-    ii) a git archive (`git archive --format=tar --output=full-stack-test.tar master`)
+    ii) a git archive (`git archive --format=tar --output=backend-test.tar master`)
 
 See 'Data models' below for an example of a team.
 
