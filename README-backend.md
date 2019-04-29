@@ -1,11 +1,10 @@
 # myrecovery Backend Code Test
 
-Do not spend more than four hours on this test, it doesn't matter if the code is not fully-functional. We want to see 
-how you go about problem-solving within constraints.
+Do not spend more than four hours on this test, it doesn't matter if the code is not fully-functional. We want to see how you go about problem-solving within constraints.
 
 ## Overview
 
-1. Model a hospital's clinical 'teams' 
+1. Model a hospital's clinical 'teams'
 2. Build a backend API that exposes a hospital's clinical teams via a single RESTful endpoint.
 3. Send us your solution as either:
     i) a link to a fork of this repo
@@ -28,12 +27,12 @@ A 'team' should be a group of individuals working with a surgeon. For example:
 - Surgeon A
     - Nurse
     - Nurse
-    - Admin Assistant  
+    - Admin Assistant
 
 - Surgeon B
     - Nurse
     - Nurse
-    - Admin Assistant  
+    - Admin Assistant
 
 A 'specialty' would be some sort of label/tag object associated with an individual.
 
