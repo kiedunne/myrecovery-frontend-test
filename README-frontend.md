@@ -1,4 +1,4 @@
-# myrecovery Full-Stack Code Test
+# myrecovery Frontend Code Test
 
 Do not spend more than four hours on this test, it doesn't matter if the code is not fully-functional. We want to see how you go about problem-solving within constraints.
 
