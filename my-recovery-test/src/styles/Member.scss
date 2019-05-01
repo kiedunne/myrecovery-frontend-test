@@ -1,0 +1,24 @@
+$kie-purple:#311B92;
+$paynes-grey: #565454;
+
+.eachMemberContainer {
+    background-color: $kie-purple;
+    border-radius: 2vw;
+    width: 40vw;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+}
+.eachMemberContainer:hover {
+    opacity: 0.5;
+}
+.memberTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img.memberImage {
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+}
