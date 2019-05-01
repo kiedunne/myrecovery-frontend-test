@@ -1,24 +1,69 @@
-$kie-purple:#311B92;
-$paynes-grey: #565454;
+$mr-purple:#33247d;
+$mr-pink: #dd315b;
+$mr-grey: #7a7a7a;
 
 .eachMemberContainer {
-    background-color: $kie-purple;
+    display: flex;
+    flex-direction: column;
+    background-color: $mr-purple;
     border-radius: 2vw;
     width: 40vw;
     color: white;
-    padding: 2vw;
+    padding: 1.5vw;
     margin: 1vw;
+    align-content: center;
+    justify-content: center;
 }
-.eachMemberContainer:hover {
-    opacity: 0.5;
-}
+
 .memberTitle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-basis: 30%;
+    margin: 0;
 }
+
 img.memberImage {
     border-radius: 50%;
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.memberSpecialities {
+    display: flex;
+}
+
+.eachSpeciality {
+    background-color: $mr-grey;
+    padding: 0.7vw;
+    border-radius: 0.8vw;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 0.5vw;
+    font-size: 0.8vw;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: $mr-pink;
+    padding: 0.7vw;
+    border-radius: 0.8vw;
+    color: white;
+    font-weight: bold;
+    margin: 0.5vw;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    width: 25%;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.hiddenMemberInfo {
+    text-align: left;
 }
