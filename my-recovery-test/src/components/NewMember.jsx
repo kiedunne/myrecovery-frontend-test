@@ -5,8 +5,8 @@ class NewMember extends Component {
 
 render(){
     return (
-      <div>
-          <form style={{display: 'none'}} className="newMemberForm">
+
+          <form className="newMemberForm">
             <input
               placeholder="First Name"
             />
@@ -16,7 +16,7 @@ render(){
             <input
               placeholder="Role"
             />
-            <select
+            <input
               placeholder="Specialities"
             />
             <label>On they currently on leave?</label>
@@ -29,7 +29,7 @@ render(){
             />
             <button type="submit">Add member</button>
           </form>
-        </div>
+
     )
   }
 }

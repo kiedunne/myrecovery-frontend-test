@@ -1,6 +1,25 @@
+$mr-pink: #dd315b;
 
 .newMemberForm {
     display: flex;
     flex-direction: column;
     width: 20vw;
+    color: white;
+    float: right;
+}
+
+.formRow {
+    display: flex;
+}
+
+input {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 1vw;
+    color: white;
+    outline: none;
+    padding:0.5vw;
+    margin:0.5vw;
+
 }

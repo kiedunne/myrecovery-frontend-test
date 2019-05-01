@@ -5,7 +5,8 @@ class Member extends Component {
   constructor() {
     super();
     this.state = {
-      showMemberInfo: false
+      showMemberInfo: false,
+      updatedMembers: []
     };
   }
 
@@ -16,7 +17,6 @@ class Member extends Component {
   }
 
   render() {
-    console.log(this.state.showMemberInfo);
     const { member } = this.props;
     const { specialities } = member;
     return (
@@ -33,15 +33,12 @@ class Member extends Component {
           <p>{member.type}</p>
         </div>
         <div className="buttonContainer">
-        <button
-          className="showMoreButton"
-          onClick={this.viewMemberInfo.bind(this)}
-        >{
-            this.state.showMemberInfo
-              ? 'Show less'
-              : 'Show more'
-          }
-        </button>
+          <button
+            className="showMoreButton"
+            onClick={this.viewMemberInfo.bind(this)}
+          >
+            {this.state.showMemberInfo ? "Show less" : "Show more"}
+          </button>
         </div>
         <div
           style={
@@ -60,7 +57,13 @@ class Member extends Component {
                 })
               : specialities}
           </div>
-          <button>Remove member</button>
+          <button
+            className="removeMember"
+            onClick={() => this.props.deleteMember(member.id)}
+            type="submit"
+          >
+            Remove member
+          </button>
         </div>
       </div>
     );

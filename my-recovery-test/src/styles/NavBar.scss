@@ -3,6 +3,7 @@ $mr-pink: #dd315b;
 .navBarContainer {
     background-color: $mr-pink;
     height: 10vw;
+    display: flex;
 }
 
 .addMemberButton {

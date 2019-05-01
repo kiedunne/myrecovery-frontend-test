@@ -5,7 +5,6 @@ import MemberList from "./components/MemberList";
 import NavBar from "./components/NavBar";
 
 function App() {
-  console.log(members);
   return (
     <div className="App">
       <NavBar />

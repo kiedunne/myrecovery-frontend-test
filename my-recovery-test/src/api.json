@@ -1,6 +1,7 @@
 
 [{
     "profilePicture": "https://avatars1.githubusercontent.com/u/6820?s=400&v=4",
+    "id": 1,
     "firstName": "Dexter",
     "lastName": "Marquez",
     "type": "Surgeon",
@@ -10,6 +11,7 @@
 },
 {
     "profilePicture": "https://avatars3.githubusercontent.com/u/1703387?s=400&v=4",
+    "id": 2,
     "firstName": "Elijah",
     "lastName": "Buckley",
     "type": "Nurse",
@@ -19,6 +21,7 @@
 },
 {
     "profilePicture": "https://avatars0.githubusercontent.com/u/9684139?s=400&v=4",
+    "id": 3,
     "firstName": "Alissia",
     "lastName": "Stanley",
     "type": "Nurse",
@@ -28,6 +31,7 @@
 },
 {
     "profilePicture": "https://avatars2.githubusercontent.com/u/48950?s=400&v=4",
+    "id": 4,
     "firstName": "Justin",
     "lastName": "Macfarlane",
     "type": "Admin Assistant",
@@ -37,6 +41,7 @@
 },
 {
     "profilePicture": "https://avatars2.githubusercontent.com/u/5201004?s=400&v=4",
+    "id": 5,
     "firstName": "Aniqa",
     "lastName": "Wang",
     "type": "Surgeon",
@@ -46,6 +51,7 @@
 },
 {
     "profilePicture": "https://avatars2.githubusercontent.com/u/1883082?s=400&v=4",
+    "id": 6,
     "firstName": "Bianka",
     "lastName": "Edge",
     "type": "Nurse",
@@ -55,6 +61,7 @@
 },
 {
     "profilePicture": "https://avatars1.githubusercontent.com/u/4589857?s=400&v=4",
+    "id": 7,
     "firstName": "Alicja",
     "lastName": "Gill",
     "type": "Nurse",
@@ -64,6 +71,7 @@
 },
 {
     "profilePicture": "https://avatars2.githubusercontent.com/u/9504864?s=400&v=4",
+    "id": 8,
     "firstName": "Cataleya",
     "lastName": "Mahoney",
     "type": "Admin Assistant",
