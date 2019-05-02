@@ -6,19 +6,38 @@ class MemberList extends Component {
   constructor() {
     super();
     this.state = {
-      members: []
+      members: [], 
+      newMember: {
+          firstName: '',
+          lastName: '',
+          role: '',
+          specialities: '',
+          onLeave: null,
+          biography: ''
+      }
     };
   }
   componentDidMount() {
     const { members } = this.props;
-    console.log(members)
+    console.log(members);
     this.setState({
       members: members
     });
   }
 
+  handleNewMember(event) {
+      event.preventDefault()
+//     const itemText = event.target.value
+//     const currentItem = { text: itemText, key:
+//        Date.now() }
+//        this.setState({
+//          currentItem,
+//     })
+//   }
+  }
+
   deleteMember(id) {
-    console.log(this.state.members)
+    console.log(this.state.members);
     const updatedMembers = this.state.members.filter(member => {
       return member.id !== id;
     });
@@ -34,6 +53,8 @@ class MemberList extends Component {
           <Member
             member={member}
             key={member.id}
+            handleNewMember={this.handleNewMember.bind(this)}
+            addMember={this.addMember.bind(this)}
             deleteMember={this.deleteMember.bind(this)}
           />
         ))}
