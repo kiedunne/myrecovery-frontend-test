@@ -41,7 +41,7 @@ class NewMemberForm extends Component {
           options={options}
         />
         <label>On they currently on leave?</label>
-        <select name="onLeave" onChange={this.props.handleNewMember}>
+        <select name="onLeave" onChange={this.props.handleNewLeave}>
           <option>Yes</option>
           <option>No</option>
         </select>

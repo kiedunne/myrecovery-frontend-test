@@ -13,7 +13,7 @@ class MemberList extends Component {
         lastName: "",
         type: "",
         specialities: [],
-        onLeave: null,
+        onLeave: true,
         biography: ""
       }
     };
@@ -37,6 +37,16 @@ class MemberList extends Component {
     console.log(this.state.newMember);
   };
 
+  handleNewLeave = event => {
+    const updatedLeave = {
+      ...this.state.newMember,
+      onLeave: event.target.value === "Yes" ? true : false
+    };
+    console.log(updatedLeave);
+    this.setState({ newMember: updatedLeave });
+    console.log(this.state.newMember);
+  };
+
   handleNewMember = event => {
     const updatedMemberList = {
       ...this.state.newMember,
@@ -57,7 +67,7 @@ class MemberList extends Component {
         firstName: "",
         lastName: "",
         type: "",
-        specialities: "",
+        specialities: [],
         onLeave: null,
         biography: ""
       }
@@ -81,6 +91,7 @@ class MemberList extends Component {
           addNewMember={this.addNewMember.bind(this)}
           newMember={this.state.newMember}
           handleNewSpecs={this.handleNewSpecs.bind(this)}
+          handleNewLeave={this.handleNewLeave.bind(this)}
         />
         <div className="memberListContainer">
           {this.state.members.map(member => (
