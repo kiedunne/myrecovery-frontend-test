@@ -11,8 +11,8 @@ class MemberList extends Component {
       newMember: {
         firstName: "",
         lastName: "",
-        role: "",
-        specialities: "",
+        type: "",
+        specialities: [],
         onLeave: null,
         biography: ""
       }
@@ -25,39 +25,38 @@ class MemberList extends Component {
     });
   }
 
+  handleNewSpecs = event => {
+    const specs = event.map(obj => {
+      return obj.value;
+    });
+    const updatedList = {
+      ...this.state.newMember,
+      specialities: specs
+    };
+    this.setState({ newMember: updatedList });
+    console.log(this.state.newMember);
+  };
+
   handleNewMember = event => {
-    event.preventDefault();
-    console.log(event.target.value);
-    const firstName = event.target.firstName;
-    const lastName = event.target.lastName;
-    const role = event.target.role;
-    const specialities = event.target.specialities;
-    const onLeave = event.target.onLeave;
-    const biography = event.target.biography;
-    const newMember = {
-      firstName,
-      lastName,
-      role,
-      specialities,
-      onLeave,
-      biography,
-      id: Date.now()
+    const updatedMemberList = {
+      ...this.state.newMember,
+      [event.target.name]: event.target.value
     };
     this.setState({
-      newMember
+      newMember: updatedMemberList
     });
+    console.log(this.state.newMember);
   };
 
   addNewMember = event => {
     event.preventDefault();
     const members = [...this.state.members, this.state.newMember];
-    console.log(members);
     this.setState({
       members,
       newMember: {
         firstName: "",
         lastName: "",
-        role: "",
+        type: "",
         specialities: "",
         onLeave: null,
         biography: ""
@@ -81,6 +80,7 @@ class MemberList extends Component {
           handleNewMember={this.handleNewMember.bind(this)}
           addNewMember={this.addNewMember.bind(this)}
           newMember={this.state.newMember}
+          handleNewSpecs={this.handleNewSpecs.bind(this)}
         />
         <div className="memberListContainer">
           {this.state.members.map(member => (
