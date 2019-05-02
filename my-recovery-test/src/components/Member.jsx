@@ -27,6 +27,7 @@ class Member extends Component {
             src={member.profilePicture}
             alt="member"
           />
+
           <h1>
             {member.firstName} {member.lastName}
           </h1>

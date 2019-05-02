@@ -34,17 +34,14 @@ class MemberList extends Component {
       specialities: specs
     };
     this.setState({ newMember: updatedList });
-    console.log(this.state.newMember);
   };
 
   handleNewLeave = event => {
     const updatedLeave = {
       ...this.state.newMember,
-      onLeave: event.target.value === "Yes" ? true : false
+      onLeave: event.value
     };
-    console.log(updatedLeave);
     this.setState({ newMember: updatedLeave });
-    console.log(this.state.newMember);
   };
 
   handleNewMember = event => {
@@ -55,12 +52,11 @@ class MemberList extends Component {
     this.setState({
       newMember: updatedMemberList
     });
-    console.log(this.state.newMember);
   };
 
   addNewMember = event => {
     event.preventDefault();
-    const members = [...this.state.members, this.state.newMember];
+    const members = [this.state.newMember,...this.state.members];
     this.setState({
       members,
       newMember: {
@@ -72,6 +68,7 @@ class MemberList extends Component {
         biography: ""
       }
     });
+    document.getElementById("newMemberForm").reset();
   };
 
   deleteMember(id) {
