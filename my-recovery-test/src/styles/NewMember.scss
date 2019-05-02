@@ -1,25 +1,41 @@
 $mr-pink: #dd315b;
 
 .newMemberForm {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    color: white;
-    float: right;
-}
-
-.formRow {
-    display: flex;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  color: white;
+  background-color: $mr-pink;
+  width: 100%;
+  height: 6vw;
+  padding: 2vw;
+   
 }
 
 input {
-    background-color: transparent;
-    border-color: white;
-    border-style: solid;
-    border-radius: 1vw;
-    color: white;
-    outline: none;
-    padding:0.5vw;
-    margin:0.5vw;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 1vw;
+  border-width: 1px;
+  color: white;
+  outline: none;
+  padding: 0.5vw;
+  margin: 0.5vw;
+}
 
+.addMemberButton {
+  border-style: solid;
+  border-color: white;
+  border-radius: 1vw;
+  border-width: 1px;
+  height: 3vw;
+  margin: 1vw;
+}
+
+.addMemberButton:hover {
+  background-color: white;
+  color: $mr-pink;
+  border-style: solid;
+  border-color: $mr-pink;
 }

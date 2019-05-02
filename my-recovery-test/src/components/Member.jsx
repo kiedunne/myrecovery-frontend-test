@@ -34,7 +34,7 @@ class Member extends Component {
         </div>
         <div className="buttonContainer">
           <button
-            className="showMoreButton"
+            className="memberButtons"
             onClick={this.viewMemberInfo.bind(this)}
           >
             {this.state.showMemberInfo ? "Show less" : "Show more"}
@@ -58,7 +58,7 @@ class Member extends Component {
               : specialities}
           </div>
           <button
-            className="removeMember"
+            className="memberButtons"
             onClick={() => this.props.deleteMember(member.id)}
             type="submit"
           >

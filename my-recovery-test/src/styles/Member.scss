@@ -61,7 +61,7 @@ button {
   width: 25%;
 }
 
-button:hover {
+button.memberButtons:hover {
   opacity: 0.5;
 }
 
@@ -70,5 +70,5 @@ button:hover {
 }
 
 .removeMember {
-    float: right;
+  float: right;
 }
