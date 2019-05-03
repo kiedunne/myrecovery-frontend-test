@@ -20,6 +20,7 @@ input {
   outline: none;
   padding: 0.5vw;
   margin: 0.5vw;
+  font-size: 1vw;
 }
 input::placeholder {
   color: white;
@@ -28,7 +29,14 @@ label {
   margin: 0.5vw;
   margin-top: 0;
   color: white;
+  font-size: 1vw;
 }
+.selectBox {
+  width: 15vw;
+  height: 5vw;
+  font-size: 1vw;
+}
+
 .addMemberButton {
   border-style: solid;
   border-color: white;
@@ -60,6 +68,9 @@ label {
 .selectContainers {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 1vw;
   color: grey;
+  text-align: center;
 }

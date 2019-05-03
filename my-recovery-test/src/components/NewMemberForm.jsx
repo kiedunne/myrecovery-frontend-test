@@ -52,6 +52,7 @@ class NewMemberForm extends Component {
         <div className="selectContainers">
           <label>Select specialities</label>
           <Select
+            className="selectBox"
             name="specialities"
             onChange={this.props.handleNewSpecs}
             closeMenuOnSelect={false}
@@ -63,6 +64,7 @@ class NewMemberForm extends Component {
         <div className="selectContainers">
           <label>On they currently on leave?</label>
           <Select
+            className="selectBox"
             name="onLeave"
             onChange={this.props.handleNewLeave}
             components={makeAnimated()}

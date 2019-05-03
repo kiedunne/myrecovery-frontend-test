@@ -11,6 +11,7 @@ class MemberList extends Component {
       newMember: {
         firstName: "",
         lastName: "",
+        profilePicture: "https://i.pinimg.com/originals/c4/0d/7a/c40d7a7060fb74926c257db982b6ddaf.jpg",
         type: "",
         specialities: [],
         onLeave: true,
@@ -56,12 +57,13 @@ class MemberList extends Component {
 
   addNewMember = event => {
     event.preventDefault();
-    const members = [this.state.newMember,...this.state.members];
+    const members = [this.state.newMember, ...this.state.members];
     this.setState({
       members,
       newMember: {
         firstName: "",
         lastName: "",
+        profilePicture: "https://i.pinimg.com/originals/c4/0d/7a/c40d7a7060fb74926c257db982b6ddaf.jpg",
         type: "",
         specialities: [],
         onLeave: null,

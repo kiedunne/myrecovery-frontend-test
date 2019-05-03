@@ -1,3 +1,7 @@
+$mr-purple: #33247d;
+$mr-pink: #dd315b;
+$mr-grey: #7a7a7a;
+
 body {
   margin: 0;
   padding: 0;
@@ -7,12 +11,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 h1 {
+  margin: 0;
   font-size: 1.5vw;
+}
+p {
+  margin: 0.5vw;
+  font-size: 1vw;
+}
+button {
+  background-color: $mr-pink;
+  padding: 0.7vw;
+  border-radius: 0.8vw;
+  color: white;
+  font-weight: bold;
+  margin: 0.5vw;
+  margin-left: 0;
+  font-size: 1vw;
+  outline: none;
+  border: none;
+}
+
+h3 {
+  font-size: 1vw;
 }

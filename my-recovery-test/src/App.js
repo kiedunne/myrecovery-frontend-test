@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.scss";
 import members from "./api.json";
 import MemberList from "./components/MemberList";
 
