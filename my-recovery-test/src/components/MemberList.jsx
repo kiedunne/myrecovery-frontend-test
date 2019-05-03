@@ -48,7 +48,8 @@ class MemberList extends Component {
   handleNewMember = event => {
     const updatedMemberList = {
       ...this.state.newMember,
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
+      id: Date.now()
     };
     this.setState({
       newMember: updatedMemberList
